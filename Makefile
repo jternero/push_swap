@@ -6,7 +6,7 @@
 #    By: jternero <jternero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/02 19:51:35 by jternero          #+#    #+#              #
-#    Updated: 2023/09/12 13:25:38 by jternero         ###   ########.fr        #
+#    Updated: 2023/09/12 14:49:14 by jternero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,7 @@ SRCS        :=            src/index.c \
 OBJS        := $(SRCS:.c=.o)
 
 %.o: %.c
-	@echo "\r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
 	@$(CC) $(FLAGS) -c $< -o  $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 
@@ -64,17 +64,15 @@ RM		    := rm -f
 
 
 all:		${NAME}
-
 ${NAME}: ${OBJS}
 	@make -C ${LIBFT_PATH}
-	@${CC} ${FLAGS} ${OBJS} ${LIBFT_PATH}${LIBFT} -o ${NAME}
-	@echo "\n\t$(RED)pu$(ORANGE)sh_$(YELLOW)swa$(GREEN)p i$(LBLUE)s re$(BLUE)ady $(INDI)to r$(PURPLE)un !$(RESET)  \n"
-
+	@ ${CC} ${FLAGS} ${OBJS} ${LIBFT_PATH}${LIBFT} -o ${NAME}
+	@echo "\n\t$(RED)彡☻$(ORANGE).$(YELLOW)[ℙ𝕌𝕊ℍ_𝕊𝕎𝔸ℙ]$(RED)☻ミ$(RESET)  \n"
 bonus:		all
 
 clean:
 			@ ${RM} *.o */*.o */*/*.o */*/*/*.o libft/libft.a
-			@ echo "\n\t $(RED)pu$(ORANGE)sh_$(YELLOW)swa$(GREEN)p wa$(LBLUE)s del$(BLUE)et$(INDI)ed$(PURPLE)!$(RESET)  \n"
+			@ echo "\n\t $(RED)ℙ𝕌𝕊ℍ_𝕊𝕎𝔸ℙ $(LBLUE) deleted!$(RESET)  \n"
 
 fclean:		clean
 			@ ${RM} ${NAME}

@@ -3,7 +3,7 @@ NAME	= libft.a
 CC		= gcc
 AR		= ar -rcs
 CFLAGS	= -Wall -Wextra -Werror
-RM		= @rm -f
+RM		= rm -f
 FILE	= $(shell ls -lR src/ | grep -F .c | wc -l)
 CMP		= 1
 
@@ -20,7 +20,14 @@ RESET	= \033[00m
 
 # PRINT
 # Libft is ready to use
-RNBW	= @ echo "                                                                     \r$(RED)Lib$(ORANGE)ft$(YELLOW) is$(GREEN) re$(LBLUE)ady $(INDI)to $(PURPLE)use$(RESET)\n"
+RNBW	= @ echo "       \r\t$(LBLUE)Libft$(YELLOW) is$(GREEN) ready $(RED)to use$(RESET)\n"
+
+OBJ	= $(SRC:.c=.o)
+
+%.o: %.c
+	@$(CC) $(CFLAGS) -c $< -o  $@
+	@echo "                        \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 
 # SOURCES #
 SRC	= ./src/check/ft_isalnum.c\
@@ -82,7 +89,6 @@ SRC	= ./src/check/ft_isalnum.c\
 	  ./src/string/ft_tolower.c\
 	  ./src/string/ft_toupper.c\
 	  ./src/string/ft_unbrlen_base.c
-OBJ	= $(SRC:.c=.o)
 
 all: $(NAME)
 
@@ -90,17 +96,12 @@ $(NAME): $(OBJ)
 	$(AR) $(NAME) $(OBJ)
 	$(RNBW)
 
-%.o: %.c
-	@echo "\r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
-	@$(CC) $(CFLAGS) -c $< -o  $@
-	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
-
-
 clean:
-	$(RM) $(OBJ)
+	@$(RM) $(OBJ)
+	@echo "\t$(LBLUE)Binary files were deleted $(RESET) "
 
 fclean: clean
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 
 re: fclean all
 

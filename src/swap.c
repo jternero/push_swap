@@ -6,7 +6,7 @@
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:12:21 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/12 13:19:40 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/12 14:57:20 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,3 @@ void	do_ss(t_lst **a_stack, t_lst **b_stack)
 	swap(b_stack);
 	ft_printf("ss\n");
 }
-
