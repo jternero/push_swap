@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 19:02:02 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:04:51 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:14:52 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

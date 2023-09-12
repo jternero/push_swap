@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/20 13:41:43 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:01:57 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:17:17 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

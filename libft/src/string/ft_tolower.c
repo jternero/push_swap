@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 21:33:56 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:05:33 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:15:18 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

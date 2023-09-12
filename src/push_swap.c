@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 15:49:07 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/20 18:35:42 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:11:38 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:11:41 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

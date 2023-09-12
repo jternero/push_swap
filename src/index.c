@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   index.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/21 13:34:10 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 18:37:58 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:11:21 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:11:28 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

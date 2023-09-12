@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 19:47:02 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 18:17:04 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:16:23 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

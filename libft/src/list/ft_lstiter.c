@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 13:29:15 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:02:20 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:16:37 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

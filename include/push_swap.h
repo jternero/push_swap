@@ -5,27 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 17:23:19 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/09/02 18:53:27 by jternero         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 15:46:50 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 17:18:08 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:17:54 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:17:57 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "../libft/inc/ft_printf.h"
+# include "../libft/inc/libft.h"
 
 typedef struct s_lst
 {

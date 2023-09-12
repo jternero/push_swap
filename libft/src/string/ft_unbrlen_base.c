@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_unbrlen_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:47:46 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 16:05:39 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:15:28 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:15:30 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

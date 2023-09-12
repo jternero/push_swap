@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_puthexa.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:36:37 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 16:03:33 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:23:06 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:23:08 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

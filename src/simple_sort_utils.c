@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   simple_sort_utils.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 12:49:06 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/20 14:09:29 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:12:10 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:12:12 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

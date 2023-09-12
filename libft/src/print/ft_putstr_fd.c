@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/05 14:15:06 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 17:55:56 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:23:24 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:23:25 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

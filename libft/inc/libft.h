@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/21 20:06:00 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 18:25:41 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:19:05 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <limits.h>
+# include <stdarg.h>
 
 typedef struct s_list
 {
@@ -61,6 +62,7 @@ int		ft_putnbr_base(long long int n, const char *base);
 int		ft_putunbr_base(unsigned long long int n, const char *base);
 int		ft_putstr(char *s);
 int		ft_putstr_fd(char *s, int fd);
+int		ft_printf(const char *s, ...);
 
 /*	STRING	*/
 char	*ft_itoa(int n);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:40:48 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 16:04:03 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:13:30 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:13:33 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/20 13:59:38 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:01:54 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:17:12 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

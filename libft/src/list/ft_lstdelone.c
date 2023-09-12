@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 13:12:02 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:02:17 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:16:34 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

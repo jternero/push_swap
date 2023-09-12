@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:44:38 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 15:44:46 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:14:08 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:14:10 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

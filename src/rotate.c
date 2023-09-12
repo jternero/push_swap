@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rotate.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 12:45:04 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 18:43:00 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:12:04 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:12:06 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

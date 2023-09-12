@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/05 11:44:36 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:03:16 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:22:34 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:22:37 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

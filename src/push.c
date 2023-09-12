@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   push.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 11:57:00 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/20 14:20:49 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:11:46 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:11:48 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 
 #include "../include/push_swap.h"
 

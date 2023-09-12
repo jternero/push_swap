@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   reverse.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 12:21:21 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 18:37:05 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:11:58 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:12:00 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/21 13:23:38 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/09/02 19:56:01 by jternero         ###   ########.fr       */
+/*   Created: 2023/09/12 13:22:20 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:22:22 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../inc/ft_printf.h"
+#include "../../inc/libft.h"
 
 static int	ft_case(va_list args, const char frmt)
 {

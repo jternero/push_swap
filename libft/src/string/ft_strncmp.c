@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 21:02:33 by jternero          #+#    #+#             */
-/*   Updated: 2023/08/14 16:05:01 by jaimgreg-fe      ###   ########.fr       */
+/*   Updated: 2023/09/12 13:14:56 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

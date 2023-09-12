@@ -1,11 +1,11 @@
 # PROJECT #
 NAME	= libft.a
-CC		= @clang
+CC		= gcc
+AR		= ar -rcs
 CFLAGS	= -Wall -Wextra -Werror
 RM		= @rm -f
 FILE	= $(shell ls -lR src/ | grep -F .c | wc -l)
 CMP		= 1
-CLEAR	= @clear
 
 # COLOR #
 GREEN	= \033[38;5;76m
@@ -20,7 +20,7 @@ RESET	= \033[00m
 
 # PRINT
 # Libft is ready to use
-RNBW	= @printf "                                                                     \r$(RED)Lib$(ORANGE)ft$(YELLOW) is$(GREEN) re$(LBLUE)ady $(INDI)to $(PURPLE)use$(RESET)\n"
+RNBW	= @ echo "                                                                     \r$(RED)Lib$(ORANGE)ft$(YELLOW) is$(GREEN) re$(LBLUE)ady $(INDI)to $(PURPLE)use$(RESET)\n"
 
 # SOURCES #
 SRC	= ./src/check/ft_isalnum.c\
@@ -55,6 +55,7 @@ SRC	= ./src/check/ft_isalnum.c\
 	  ./src/print/ft_putstr.c\
 	  ./src/print/ft_putstr_fd.c\
 	  ./src/print/ft_putunbr_base.c\
+	  ./src/print/ft_printf.c\
 	  ./src/string/ft_atoi.c\
 	  ./src/string/ft_atof.c\
 	  ./src/string/ft_atol.c\
@@ -85,14 +86,15 @@ OBJ	= $(SRC:.c=.o)
 
 all: $(NAME)
 
+$(NAME): $(OBJ)
+	$(AR) $(NAME) $(OBJ)
+	$(RNBW)
+
 %.o: %.c
-	@printf "\r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
-	$(CC) $(CFLAGS) -c $< -o  $@
+	@echo "\r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(CFLAGS) -c $< -o  $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 
-$(NAME): $(OBJ)
-	@ar rcs $(NAME) $(OBJ)
-	$(RNBW)	
 
 clean:
 	$(RM) $(OBJ)

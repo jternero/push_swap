@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ptr_setstring.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:46:10 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 16:04:15 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:13:58 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:14:00 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

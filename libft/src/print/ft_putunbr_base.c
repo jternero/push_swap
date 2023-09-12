@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putunbr_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/14 15:39:30 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 16:03:50 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:23:36 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:23:39 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

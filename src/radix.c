@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   radix.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
+/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 12:04:08 by jaimgreg-fe       #+#    #+#             */
-/*   Updated: 2023/08/14 18:47:36 by jaimgreg-fe      ###   ########.fr       */
+/*   Created: 2023/09/12 13:11:53 by jternero          #+#    #+#             */
+/*   Updated: 2023/09/12 13:11:54 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
