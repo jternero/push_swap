@@ -6,7 +6,7 @@
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:11:38 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/14 23:43:32 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/14 23:45:59 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,13 +78,12 @@ int	main(int ac, char **av)
 
 	if (ac == 1)
 		return (0);
-	a_stack = NULL;
-	b_stack = NULL;
 	if (ps_initstack(ac, av, &a_stack) == 0 || ps_check_dup(a_stack) == -1)
 	{
 		ps_stackclear(&a_stack);
 		return (ft_putstr_fd("Error\n", STDERR_FILENO));
 	}
+	else
 	{
 		ps_index(&a_stack);
 		if (is_sorted(&a_stack) != 1)
