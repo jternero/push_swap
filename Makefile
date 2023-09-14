@@ -6,7 +6,7 @@
 #    By: jternero <jternero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/02 19:51:35 by jternero          #+#    #+#              #
-#    Updated: 2023/09/12 14:49:14 by jternero         ###   ########.fr        #
+#    Updated: 2023/09/14 22:16:36 by jternero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,9 +18,10 @@ NAME        := push_swap
 CC        := gcc
 FLAGS    := -Wall -Wextra -Werror 
 CMP		= 1
-FILE	= $(shell ls -l src/ | grep -F .c | wc -l)
+FILE	= $(shell ls -Rl src/ | grep -F .c | wc -l)
 LIBFT := libft.a 
 LIBFT_PATH := ./libft/
+
 
 ################################################################################
 #                                 PROGRAM'S SRCS                               #
@@ -40,7 +41,8 @@ SRCS        :=            src/index.c \
 OBJS        := $(SRCS:.c=.o)
 
 %.o: %.c
-	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
 	@$(CC) $(FLAGS) -c $< -o  $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 
@@ -67,15 +69,17 @@ all:		${NAME}
 ${NAME}: ${OBJS}
 	@make -C ${LIBFT_PATH}
 	@ ${CC} ${FLAGS} ${OBJS} ${LIBFT_PATH}${LIBFT} -o ${NAME}
-	@echo "\n\t$(RED)彡☻$(ORANGE).$(YELLOW)[ℙ𝕌𝕊ℍ_𝕊𝕎𝔸ℙ]$(RED)☻ミ$(RESET)  \n"
+	@echo "\n\t$(YELLOW) 🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(RESET)  \n"
+	@echo "\t\t   $(YELLOW)   by  𝕁 𝕋 𝔼 ℝ ℕ 𝔼 ℝ 𝕆 $(RESET)  \n"
 bonus:		all
 
 clean:
-			@ ${RM} *.o */*.o */*/*.o */*/*/*.o libft/libft.a
-			@ echo "\n\t $(RED)ℙ𝕌𝕊ℍ_𝕊𝕎𝔸ℙ $(LBLUE) deleted!$(RESET)  \n"
+			@ ${RM} src/*.o
+			@ echo "\n\t $(RED)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟    $(LBLUE) deleted!$(RESET)  \n"
 
 fclean:		clean
-			@ ${RM} ${NAME}
+			@ ${RM} ${NAME} libft/libft.a libft/src/*/*.o
+			@ echo "\n\t $(RED)🅛 🅘 🅑 🅕 🅣           $(LBLUE) deleted!$(RESET)  \n"
 
 re:			fclean all
 

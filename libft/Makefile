@@ -4,7 +4,7 @@ CC		= gcc
 AR		= ar -rcs
 CFLAGS	= -Wall -Wextra -Werror
 RM		= rm -f
-FILE	= $(shell ls -lR src/ | grep -F .c | wc -l)
+FILE	= $(shell ls -Rl src/ | grep -F .c | wc -l)
 CMP		= 1
 
 # COLOR #
@@ -20,14 +20,16 @@ RESET	= \033[00m
 
 # PRINT
 # Libft is ready to use
-RNBW	= @ echo "       \r\t$(LBLUE)Libft$(YELLOW) is$(GREEN) ready $(RED)to use$(RESET)\n"
 
 OBJ	= $(SRC:.c=.o)
 
 %.o: %.c
-	@$(CC) $(CFLAGS) -c $< -o  $@
-	@echo "                        \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)Compilation in progress... $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@echo "                        \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅛 🅘 🅑 🅕 🅣   $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(CFLAGS) -c $< -o $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+	@clear
+
+
 
 # SOURCES #
 SRC	= ./src/check/ft_isalnum.c\
@@ -94,7 +96,6 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	$(AR) $(NAME) $(OBJ)
-	$(RNBW)
 
 clean:
 	@$(RM) $(OBJ)

@@ -6,11 +6,16 @@
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:11:38 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/12 14:23:38 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/14 22:14:24 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/push_swap.h"
+
+void	leaks(void)
+{
+	system("leaks -q push_swap");
+}
 
 static int	ps_check_dup(t_lst *stack)
 {
@@ -25,7 +30,9 @@ static int	ps_check_dup(t_lst *stack)
 		{
 			dup = dup->next;
 			if (dup->content == tmp)
+			{
 				return (-1);
+			}
 		}
 		stack = stack->next;
 	}
@@ -58,7 +65,7 @@ static int	ps_initstack(int ac, char **av, t_lst **a_stack)
 		{
 			if (ft_atol(split[j]) > INT_MAX
 				|| ft_atol(split[j]) < INT_MIN)
-				return (0);
+				return (free_split(split), ps_stackclear(a_stack), 0);
 			lst_addback(a_stack, lst_new(ft_atoi(split[j])));
 			j++;
 		}
@@ -73,6 +80,7 @@ int	main(int ac, char **av)
 	t_lst			*a_stack;
 	t_lst			*b_stack;
 
+	atexit(leaks);
 	if (ac == 1)
 		return (0);
 	a_stack = NULL;
@@ -80,7 +88,10 @@ int	main(int ac, char **av)
 	if (ps_initstack(ac, av, &a_stack) == 0)
 		return (ft_putstr_fd("Error\n", STDERR_FILENO));
 	else if (ps_check_dup(a_stack) == -1)
+	{
+		ps_stackclear(&a_stack);
 		return (ft_putstr_fd("Error\n", STDERR_FILENO));
+	}
 	else
 	{
 		ps_index(&a_stack);
