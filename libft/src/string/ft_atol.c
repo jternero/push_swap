@@ -6,7 +6,7 @@
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:13:30 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/14 21:16:57 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/14 23:42:49 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ long	ft_atol(const char *nptr)
 	res = 0;
 	while (ft_isspace(nptr[i]))
 		i++;
-	if (nptr[i] == '-' )
+	if (nptr[i] == '-')
 		sign *= -1;
 	i += (nptr[i] == '+' || nptr[i] == '-');
 	if (ft_isdigit(nptr[i]) == 0)

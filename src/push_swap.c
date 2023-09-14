@@ -6,16 +6,12 @@
 /*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:11:38 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/14 22:14:24 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/14 23:43:32 by jternero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/push_swap.h"
 
-void	leaks(void)
-{
-	system("leaks -q push_swap");
-}
 
 static int	ps_check_dup(t_lst *stack)
 {
@@ -80,19 +76,15 @@ int	main(int ac, char **av)
 	t_lst			*a_stack;
 	t_lst			*b_stack;
 
-	atexit(leaks);
 	if (ac == 1)
 		return (0);
 	a_stack = NULL;
 	b_stack = NULL;
-	if (ps_initstack(ac, av, &a_stack) == 0)
-		return (ft_putstr_fd("Error\n", STDERR_FILENO));
-	else if (ps_check_dup(a_stack) == -1)
+	if (ps_initstack(ac, av, &a_stack) == 0 || ps_check_dup(a_stack) == -1)
 	{
 		ps_stackclear(&a_stack);
 		return (ft_putstr_fd("Error\n", STDERR_FILENO));
 	}
-	else
 	{
 		ps_index(&a_stack);
 		if (is_sorted(&a_stack) != 1)
