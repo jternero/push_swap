@@ -30,7 +30,6 @@ OBJ	= $(SRC:.c=.o)
 	@clear
 
 
-
 # SOURCES #
 SRC	= ./src/check/ft_isalnum.c\
 	  ./src/check/ft_isalpha.c\
