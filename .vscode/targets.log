@@ -1,0 +1,563 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Sep 20 21:04:20 2023
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+MODULAR_HOME = /home/jaimgreg-fedora/.modular
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/jaimgreg-fedora
+# makefile (from 'Makefile', line 23)
+LIBFT_PATH := ./libft/
+# environment
+NVM_DIR = /home/jaimgreg-fedora/.reflex/.nvm
+# environment
+GDM_LANG = es_ES.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jaimgreg-fedora/Escritorio/pushy
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = fedora
+# environment
+MAIL = /var/spool/mail/jaimgreg-fedora
+# environment
+XDG_DATA_DIRS = /home/jaimgreg-fedora/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/jaimgreg-fedora/.reflex/.nvm/versions/node/v18.17.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jaimgreg-fedora/.config/Code/CachedData/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d
+# makefile (from 'Makefile', line 22)
+LIBFT := libft.a 
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.YZOMB2
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 60)
+BLUE = \033[38;5;117m
+# makefile
+CURDIR := /home/jaimgreg-fedora/Escritorio/pushy
+# makefile (from 'Makefile', line 20)
+CMP = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# makefile (from 'Makefile', line 30)
+SRCS := src/index.c src/lst_utils.c src/push.c src/push_swap.c src/radix.c src/reverse.c src/rotate.c src/simple_sort.c src/simple_sort_utils.c src/swap.c 
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BUN_INSTALL = /home/jaimgreg-fedora/.reflex/.bun
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/jaimgreg-fedora/.reflex/.nvm/versions/node/v18.17.0/bin
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+HISTSIZE = 1000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 61)
+INDI = \033[38;5;99m
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+CONDA_SHLVL = 0
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 111459
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 19)
+FLAGS := -Wall -Wextra -Werror 
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2165,unix/unix:/tmp/.ICE-unix/2165
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"es-es","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile (from 'Makefile', line 41)
+OBJS := src/index.o src/lst_utils.o src/push.o src/push_swap.o src/radix.o src/reverse.o src/rotate.o src/simple_sort.o src/simple_sort_utils.o src/swap.o
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+LD_LIBRARY_PATH = :/usr/local/lib:/usr/local/lib
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/jaimgreg-fedora/.modular/pkg/packages.modular.com_mojo/bin:/home/jaimgreg-fedora/.reflex/.bun/bin:/home/jaimgreg-fedora/.modular/pkg/packages.modular.com_mojo/bin:/home/jaimgreg-fedora/.reflex/.bun/bin:/home/jaimgreg-fedora/.reflex/.nvm/versions/node/v18.17.0/bin:/home/jaimgreg-fedora/.local/bin:/home/jaimgreg-fedora/bin:/usr/condabin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 58)
+PURPLE = \033[38;5;213m
+# makefile (from 'Makefile', line 56)
+YELLOW = \033[38;5;226m
+# environment
+INVOCATION_ID = 4bc65ce401d24fd485af68b90cd175fe
+# environment
+USERNAME = jaimgreg-fedora
+# makefile (from 'Makefile', line 54)
+GREEN = \033[38;5;76m
+# environment
+GNOME_SETUP_DISPLAY = :1
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 17)
+NAME := push_swap
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 59)
+LBLUE = \033[38;5;51m
+# environment
+LOGNAME = jaimgreg-fedora
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2217
+# makefile (from 'Makefile', line 63)
+RM := rm -f
+# makefile (from 'Makefile', line 57)
+ORANGE = \033[38;5;202m
+# makefile (from 'Makefile', line 55)
+RED = \033[38;5;160m
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0
+# environment
+USER = jaimgreg-fedora
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1853
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 111459
+# environment
+_ = /usr/bin/make
+# makefile (from 'Makefile', line 62)
+RESET = \033[00m
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+JOURNAL_STREAM = 8:32955
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 21)
+FILE = $(shell ls -Rl src/ | grep -F .c | wc -l)
+# environment
+HOME = /home/jaimgreg-fedora
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9ac33082-1.82-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 18)
+CC := gcc
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=8/157=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 38, inode 2405834): 12 files, no impossibilities so far.
+# . (device 38, inode 2405698): 10 files, no impossibilities.
+
+# 22 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/simple_sort_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+src/radix.o: src/radix.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/radix'
+#  Last modified 2023-09-15 00:22:26.601092481
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+FORCE:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/reverse.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+src/simple_sort.o: src/simple_sort.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/simple_sort'
+#  Last modified 2023-09-15 00:22:26.700091914
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+src/push.o: src/push.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/push'
+#  Last modified 2023-09-15 00:22:26.529092893
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+src/swap.o: src/swap.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/swap'
+#  Last modified 2023-09-15 00:22:26.767091531
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-20 21:02:32.886909283
+#  File has been updated.
+#  Successfully updated.
+
+src/rotate.o: src/rotate.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/rotate'
+#  Last modified 2023-09-15 00:22:26.668092098
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# Not a target:
+src/push_swap.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:48.100312795
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/lst_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 79):
+			@ ${RM} src/*.o
+			@ echo "\n\t $(RED)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟    $(LBLUE) deleted!$(RESET)  \n"
+
+re: fclean all fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/radix.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: push_swap
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+			@ ${RM} ${NAME} libft/libft.a libft/src/*/*.o
+			@ echo "\n\t $(RED)🅛 🅘 🅑 🅕 🅣           $(LBLUE) deleted!$(RESET)  \n"
+
+src/index.o: src/index.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/index'
+#  Last modified 2023-09-15 00:22:26.458093299
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+push_swap: src/index.o src/lst_utils.o src/push.o src/push_swap.o src/radix.o src/reverse.o src/rotate.o src/simple_sort.o src/simple_sort_utils.o src/swap.o
+#  Implicit rule search has not been done.
+#  Last modified 2023-09-15 00:22:28.786079977
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@make -C ${LIBFT_PATH}
+	@ ${CC} ${FLAGS} ${OBJS} ${LIBFT_PATH}${LIBFT} -o ${NAME}
+	@echo "\n\t$(YELLOW) 🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(RESET)  \n"
+	@echo "\t\t   $(YELLOW)   by  𝕁 𝕋 𝔼 ℝ ℕ 𝔼 ℝ 𝕆 $(RESET)  \n"
+
+# Not a target:
+src/index.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+test: src/index.o src/lst_utils.o src/push.o src/push_swap.o src/radix.o src/reverse.o src/rotate.o src/simple_sort.o src/simple_sort_utils.o src/swap.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+		$(CC) $(TEST_LIBS) $^ -o test_push_swap
+		
+
+src/push_swap.o: src/push_swap.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/push_swap'
+#  Last modified 2023-09-15 00:22:26.567092676
+ 
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# Not a target:
+src/swap.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+src/reverse.o: src/reverse.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/reverse'
+#  Last modified 2023-09-15 00:22:26.635092286
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+src/simple_sort_utils.o: src/simple_sort_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/simple_sort_utils'
+#  Last modified 2023-09-15 00:22:26.73409172
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# Not a target:
+src/simple_sort.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/rotate.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/push.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-15 00:21:29.618418555
+#  File has been updated.
+#  Successfully updated.
+
+src/lst_utils.o: src/lst_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/lst_utils'
+#  Last modified 2023-09-15 00:22:26.495093088
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 44):
+	@clear
+	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@$(CC) $(FLAGS) -c $< -o  $@
+	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
+
+# files hash-table stats:
+# Load=31/1024=3%, Rehash=0, Collisions=0/104=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 63 / storage = 686 B / avg = 10 B
+# current buf: size = 8162 B / used = 686 B / count = 63 / avg = 10 B
+
+# strcache performance: lookups = 112 / hit rate = 43%
+# hash-table stats:
+# Load=63/8192=1%, Rehash=0, Collisions=0/112=0%
+# Finished Make data base on Wed Sep 20 21:04:20 2023
+
+ 

@@ -24,7 +24,7 @@ RESET	= \033[00m
 OBJ	= $(SRC:.c=.o)
 
 %.o: %.c
-	@echo "                        \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅛 🅘 🅑 🅕 🅣   $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@printf "                        \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅛 🅘 🅑 🅕 🅣   $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
 	@$(CC) $(CFLAGS) -c $< -o $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 	@clear
@@ -98,7 +98,7 @@ $(NAME): $(OBJ)
 
 clean:
 	@$(RM) $(OBJ)
-	@echo "\t$(LBLUE)Binary files were deleted $(RESET) "
+	@printf "\t$(LBLUE)Binary files were deleted $(RESET) "
 
 fclean: clean
 	@$(RM) $(NAME)

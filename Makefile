@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jternero <jternero@student.42.fr>          +#+  +:+       +#+         #
+#    By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/02 19:51:35 by jternero          #+#    #+#              #
-#    Updated: 2023/09/14 22:16:36 by jternero         ###   ########.fr        #
+#    Updated: 2023/09/20 21:50:49 by jaimgreg-fe      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,7 +42,7 @@ OBJS        := $(SRCS:.c=.o)
 
 %.o: %.c
 	@clear
-	@echo "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
+	@printf "                     \r$(LBLUE)[$(RESET)$(CMP)$(LBLUE)] $(RESET)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(GREEN)$<$(BLUE) [$(RESET)$(CMP)$(BLUE)/$(RESET)$(FILE)$(BLUE)]$(RESET)                        \r"
 	@$(CC) $(FLAGS) -c $< -o  $@
 	@$(eval CMP=$(shell echo $$(($(CMP)+1))))
 
@@ -69,17 +69,19 @@ all:		${NAME}
 ${NAME}: ${OBJS}
 	@make -C ${LIBFT_PATH}
 	@ ${CC} ${FLAGS} ${OBJS} ${LIBFT_PATH}${LIBFT} -o ${NAME}
-	@echo "\n\t$(YELLOW) 🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(RESET)  \n"
-	@echo "\t\t   $(YELLOW)   by  𝕁 𝕋 𝔼 ℝ ℕ 𝔼 ℝ 𝕆 $(RESET)  \n"
-bonus:		all
+	@printf "\n\t$(YELLOW) 🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 $(RESET)  \n"
+	@printf "\t\t   $(YELLOW)   by  𝕁 𝕋 𝔼 ℝ ℕ 𝔼 ℝ 𝕆 $(RESET)  \n"
 
+test: $(TEST_OBJS) $(OBJS)
+		$(CC) $(TEST_LIBS) $^ -o test_push_swap
+		
 clean:
 			@ ${RM} src/*.o
-			@ echo "\n\t $(RED)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟    $(LBLUE) deleted!$(RESET)  \n"
+			@ printf "\n\t $(RED)🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟    $(LBLUE) deleted!$(RESET)  \n"
 
 fclean:		clean
 			@ ${RM} ${NAME} libft/libft.a libft/src/*/*.o
-			@ echo "\n\t $(RED)🅛 🅘 🅑 🅕 🅣           $(LBLUE) deleted!$(RESET)  \n"
+			@ printf "\n\t $(RED)🅛 🅘 🅑 🅕 🅣           $(LBLUE) deleted!$(RESET)  \n"
 
 re:			fclean all
 
@@ -89,3 +91,4 @@ FORCE:
 re:			fclean  all
 
 .PHONY:		all clean fclean re
+

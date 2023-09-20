@@ -3,19 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:11:38 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/15 12:05:48 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/20 22:41:42 by jaimgreg-fe      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/push_swap.h"
 
-void	leaks(void)
-{
-	system("leaks -q push_swap");
-}
 
 static int	ps_check_dup(t_lst *stack)
 {
@@ -77,10 +73,9 @@ static int	ps_initstack(int ac, char **av, t_lst **a_stack)
 
 int	main(int ac, char **av)
 {
-	t_lst			*a_stack;
-	t_lst			*b_stack;
+	t_lst			*a_stack = NULL;
+	t_lst			*b_stack = NULL;
 
-	atexit(leaks);
 	if (ac == 1)
 		return (0);
 	if (ps_initstack(ac, av, &a_stack) == 0 || ps_check_dup(a_stack) == -1)

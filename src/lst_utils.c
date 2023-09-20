@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   lst_utils.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jternero <jternero@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jaimgreg-fedora <jaimgreg-fedora@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 13:11:32 by jternero          #+#    #+#             */
-/*   Updated: 2023/09/12 13:11:34 by jternero         ###   ########.fr       */
+/*   Updated: 2023/09/20 22:34:43 by jaimgreg-fe      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ void	lst_addback(t_lst **stack, t_lst *news)
 		(*stack)->next = NULL;
 		return ;
 	}
+	news->next = NULL;
 	tmp = *stack;
 	while (tmp->next)
 		tmp = tmp->next;

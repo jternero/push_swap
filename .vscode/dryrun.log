@@ -1,0 +1,40 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jaimgreg-fedora/Escritorio/pushy'
+clear
+echo "                     \r\033[38;5;51m[\033[00m1\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/index.c\033[38;5;117m [\033[00m1\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/index.c -o  src/index.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m2\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/lst_utils.c\033[38;5;117m [\033[00m2\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/lst_utils.c -o  src/lst_utils.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m3\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/push.c\033[38;5;117m [\033[00m3\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/push.c -o  src/push.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m4\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/push_swap.c\033[38;5;117m [\033[00m4\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/push_swap.c -o  src/push_swap.o
+ 
+clear
+echo "                     \r\033[38;5;51m[\033[00m5\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/radix.c\033[38;5;117m [\033[00m5\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/radix.c -o  src/radix.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m6\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/reverse.c\033[38;5;117m [\033[00m6\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/reverse.c -o  src/reverse.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m7\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/rotate.c\033[38;5;117m [\033[00m7\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/rotate.c -o  src/rotate.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m8\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/simple_sort.c\033[38;5;117m [\033[00m8\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/simple_sort.c -o  src/simple_sort.o
+clear
+echo "                     \r\033[38;5;51m[\033[00m9\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/simple_sort_utils.c\033[38;5;117m [\033[00m9\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/simple_sort_utils.c -o  src/simple_sort_utils.o
+ 
+clear
+echo "                     \r\033[38;5;51m[\033[00m10\033[38;5;51m] \033[00m🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[38;5;76msrc/swap.c\033[38;5;117m [\033[00m10\033[38;5;117m/\033[00m10\033[38;5;117m]\033[00m                        \r"
+gcc -Wall -Wextra -Werror  -c src/swap.c -o  src/swap.o
+make -C ./libft/
+gcc -Wall -Wextra -Werror  src/index.o src/lst_utils.o src/push.o src/push_swap.o src/radix.o src/reverse.o src/rotate.o src/simple_sort.o src/simple_sort_utils.o src/swap.o ./libft/libft.a  -o push_swap
+echo "\n\t\033[38;5;226m 🅟 🅤 🅢 🅗  🅢 🅦 🅐 🅟 \033[00m  \n"
+echo "\t\t   \033[38;5;226m   by  𝕁 𝕋 𝔼 ℝ ℕ 𝔼 ℝ 𝕆 \033[00m  \n"
+make: Leaving directory '/home/jaimgreg-fedora/Escritorio/pushy'
+ 
